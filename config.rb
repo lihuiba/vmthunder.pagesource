@@ -4,11 +4,11 @@ require 'sass-globbing'
 project_type = :stand_alone
 
 # Publishing paths
-http_path = "/"
-http_images_path = "/images"
+http_path = "/VMThunder/"
+http_images_path = "/VMThunder/images"
 http_generated_images_path = "/images"
-http_fonts_path = "/fonts"
-css_dir = "public/stylesheets"
+http_fonts_path = "/VMThunder/fonts"
+css_dir = "public/VMThunder/stylesheets"
 
 # Local development paths
 sass_dir = "sass"
