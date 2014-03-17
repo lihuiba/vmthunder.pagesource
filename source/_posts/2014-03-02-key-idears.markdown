@@ -10,7 +10,7 @@ categories:
 ---
 The booting process of a VM requires only a small part of the image data.
 We test the bootstrap process of popular operating systems, including 
-Windows and various Linux dis- tributions like Fedora, Ubuntu, OpenSUSE, 
+Windows and various Linux distributions like Fedora, Ubuntu, OpenSUSE, 
 and CentOS. We record the data access traces, including the address and 
 the request time of the data blocks. The following figure shows the result.
 
@@ -37,6 +37,8 @@ is quite similar to one another. So data received by a compute node can
 be forwarded to another, in order to reduce pressure of image server(s), 
 and to improve efficiency. P2P transferring allows image service capacity 
 to scale up accordingly with the number of clients (compute nodes).
+
+{% img /images/img-tree.png 450 %}
 
 4. Prefetching
 ---
